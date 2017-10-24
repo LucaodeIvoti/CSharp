@@ -7,6 +7,8 @@ namespace console_dotnet
             public int calc(int a, int b, int c) {
                 return a / b * c;
             }
-            
+            public double calc2(int a, int b, int c) {
+                return (a + b) + ((a + b) * (c/100));
+            }
     }
 }

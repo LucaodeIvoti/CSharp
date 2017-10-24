@@ -24,6 +24,8 @@ namespace console_dotnet
             }
                 Grovy a = new Grovy();
                 System.Console.WriteLine(a.calc(6, 2, 3));
+                System.Console.WriteLine(a.calc2(10, 35, 22));
+            
         }
     }
 }
